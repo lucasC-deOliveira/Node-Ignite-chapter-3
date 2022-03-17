@@ -1,5 +1,9 @@
+import "reflect-metadata";
+import "./shared/container"
 import express from 'express';
 import swaggerUI from 'swagger-ui-express';
+
+
 
 import swaggerFile from "./swagger.json";
 
