@@ -12,3 +12,8 @@ docker-compose stop : para todos os serviços
 docker exec -it exec <nome do container> : acessa o container => pra sair "CTRL D"
 docker logs <nome do container> : mostra os logs
 docker logs <nome do container> -f : fica observando os logs
+
+
+### Comandos TypeORM 
+yarn typeorm migration:create -n nomeDaMigration            => criar migration
+yarn typeorm migration:run                                  => executar migration
